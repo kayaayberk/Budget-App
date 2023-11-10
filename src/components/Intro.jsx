@@ -1,8 +1,10 @@
 // rrd imports
 import { Form } from 'react-router-dom';
-// library
+
+// library imports
 import { UserPlusIcon } from '@heroicons/react/24/solid'
-// assets
+
+// asset imports
 import illustration from '../assets/illustration.jpg';
 
 const Intro = () => {
@@ -35,7 +37,11 @@ const Intro = () => {
           </button>
           </Form>
       </div>
-      <img src={illustration} alt="Person with money" width={600} />
+      <img 
+      src={illustration} 
+      alt="Person with money" 
+      width={600}
+      />
     </div>
   );
 };

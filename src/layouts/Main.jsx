@@ -1,13 +1,12 @@
 // rrd imports
 import { Outlet, useLoaderData } from "react-router-dom";
-// helper functions
+// helper imports
 import { fetchData } from "../helpers";
-// assets
+// asset imports
 import wave from '../assets/wave.svg';
-// components
+// component imports
 import Nav from "../components/Nav";
 
-// loader
 export function mainLoader() {
   const userName = fetchData("userName");
   return { userName };

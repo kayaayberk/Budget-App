@@ -6,7 +6,7 @@ const generateRandomColor = () => {
   return `${existingBudgetLength * 34} 65% 50%`;
 };
 
-// Local storage
+// local storage
 export const fetchData = (key) => {
   return JSON.parse(localStorage.getItem(key));
 };

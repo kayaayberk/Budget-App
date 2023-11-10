@@ -1,15 +1,15 @@
 // rrd imports
 import { useLoaderData } from "react-router-dom";
 
-// library
+// library imports
 import { toast } from "react-toastify";
 
-// components
+// component imports
 import AddExpenseForm from "../components/AddExpenseForm";
 import BudgetItem from "../components/BudgetItem";
 import Table from "../components/Table";
 
-// helpers
+// helper imports
 import { createExpense, deleteItem, getAllMatchingItems } from "../helpers";
 
 // loader
@@ -78,7 +78,10 @@ const BudgetPage = () => {
         <span className="accent">{budget.name}</span> Overview
       </h1>
       <div className="flex-lg">
-        <BudgetItem budget={budget} showDelete={true}/>
+        <BudgetItem 
+        budget={budget} 
+        showDelete={true}
+        />
         <AddExpenseForm budgets={[budget]} />
       </div>
       {expenses && expenses.length > 0 && (
@@ -86,7 +89,10 @@ const BudgetPage = () => {
           <h2>
             <span className="accent">{budget.name}</span> Expenses
           </h2>
-          <Table expenses={expenses} showBudget={false} />
+          <Table 
+          expenses={expenses} 
+          showBudget={false}
+          />
         </div>
       )}
     </div>

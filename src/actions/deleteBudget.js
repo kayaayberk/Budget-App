@@ -1,10 +1,10 @@
-// rrd import
+// rrd imports
 import { redirect } from "react-router-dom";
 
-// library
+// library imports
 import { toast } from "react-toastify";
 
-// helpers
+// helper imports
 import { deleteItem, getAllMatchingItems } from "../helpers";
 
 export function deleteBudget({ params }) {
