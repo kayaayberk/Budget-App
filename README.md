@@ -1,9 +1,9 @@
 # Budget-App
 Budget App is a personal project created to keep track of personal expenses.
 #### This project was created for learning purposes.
-<img width="400" alt="Screenshot 2023-11-10 at 13 16 23" src="https://github.com/kayaayberk/Budget-App/assets/136496255/1a49ac7c-b165-44f6-855a-a703eb656002">
-<img width="484" alt="Screenshot 2023-11-10 at 13 16 57" src="https://github.com/kayaayberk/Budget-App/assets/136496255/fa53a6f0-c551-45e1-859d-6529ec785e27">
-<img width="400" alt="Screenshot 2023-11-10 at 13 16 40" src="https://github.com/kayaayberk/Budget-App/assets/136496255/06fb7429-1fed-4c88-97d3-4e405d367fef">
+<img width="350" alt="Screenshot 2023-11-10 at 13 16 23" src="https://github.com/kayaayberk/Budget-App/assets/136496255/1a49ac7c-b165-44f6-855a-a703eb656002">
+<img width="424" alt="Screenshot 2023-11-10 at 13 16 57" src="https://github.com/kayaayberk/Budget-App/assets/136496255/fa53a6f0-c551-45e1-859d-6529ec785e27">
+<img width="350" alt="Screenshot 2023-11-10 at 13 16 40" src="https://github.com/kayaayberk/Budget-App/assets/136496255/06fb7429-1fed-4c88-97d3-4e405d367fef">
 
 
 ## Installation
